@@ -1,0 +1,33 @@
+.singlepageads{
+    width: 80%;
+    margin: auto;
+}
+
+.mySwiper img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.rightuimgs{
+    width: 67%
+}
+
+.rightuimgs hr{
+    color:rgba(0, 0, 0, 0.37) ;
+}
+.leftuimgs{
+    width: 31.8%;
+}
+
+
+@media screen and (max-width:1443px) {
+    .underimgs{
+        flex-direction: column!important;
+    }
+    .rightuimgs{
+        width: 100%!important;
+    }
+    .leftuimgs{
+        width: 100%!important;
+    }
+}

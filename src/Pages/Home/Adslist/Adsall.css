@@ -1,0 +1,111 @@
+.newadstitle{
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+    align-items: center;
+
+ 
+
+}
+.ads{
+    width: 80%;
+    margin: auto;
+}
+.newadstitle svg{
+    font-size: 1.5em!important;
+    width: 1.8em;
+}
+
+.newadstitle p{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.adslist{
+    display: flex;
+   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.singleads{
+    margin-top: 20px;
+    width: 19%;
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.singleads a{
+    width: 100%;
+}
+@media screen and (max-width:1360px) {
+    .adslist{
+        display: flex;
+       justify-content: space-between;
+ 
+  
+       
+    }
+    .singleads{
+  
+        width: 24%;
+       
+    }
+}
+@media screen and (max-width:1060px) {
+    .adslist{
+ 
+       justify-content: space-between;
+       align-items: center;
+  
+       
+    }
+    .singleads{
+  
+        width: 30%;
+       
+    }
+}
+@media screen and (max-width:660px) {
+    .adslist{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+      
+       
+    }
+    .singleads{
+   
+        width: 49%;
+       
+    }
+}
+
+
+.singleads img{
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.singleads p:nth-child(1){
+    font-weight: bolder;
+
+}
+.singleads h5{
+    margin-top: 10px;
+}
+.singleads svg{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 25px;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 40px;
+    background-color: rgba(207, 202, 202, 0.788);
+   
+}

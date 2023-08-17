@@ -1,0 +1,10 @@
+.selected{
+    background-color: rgba(191, 195, 208, 0.368);
+    padding: 5px 10px;
+    border-radius: 20px;
+    
+}
+
+.selectcat{
+    cursor: pointer;
+}

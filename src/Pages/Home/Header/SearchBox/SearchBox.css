@@ -1,0 +1,54 @@
+
+.searchbox{
+    width: 50%;
+}
+
+.searchbox form{
+ position: relative;
+}
+
+.searchbox button{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    font-size: 1.3em;
+    cursor: pointer;
+    background-color: unset;
+    border: unset;
+    gap: 4px;
+color: black;
+ border-right:1px solid #b7b7ba;
+ 
+    left: 0;
+}
+.searchbox button:hover{
+    background-color: unset;
+    color: black;
+    border-right:1px solid #b7b7ba;
+}
+.searchbox input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+border: 1px solid #b7b7ba;
+    outline: none;
+    background-color: #FAFAFC;
+    font-size: 1.4em;
+    
+}
+
+.modal-header button{
+    margin: 0!important;
+}
+
+.ostanlist{
+    height: 50vh;
+}

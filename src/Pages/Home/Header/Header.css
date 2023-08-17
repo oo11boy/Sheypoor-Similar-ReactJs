@@ -1,0 +1,129 @@
+.header{
+    width: 80%;
+margin-top: 10px;
+
+margin: auto;
+}
+
+.heartlist{
+    max-height: 80vh;
+   overflow: auto;
+}
+.bodyheader{
+ 
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 5px 0;
+gap: 20px;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.logo img{
+    width: 20em!important;
+    height: 2.5rem !important;
+
+}
+.leftheader{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.leftheader a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.443);
+    font-size: 1.1em;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftheader  svg{
+    font-size: 1.4em;
+    margin-left: 5px;
+}
+.leftheader  a:hover{
+    color: #0084FF;
+
+}
+
+.savelink{
+    position: relative;
+}
+.countf{
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    background-color: #0084FF;
+    padding: 2px 7px;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:1310px) {
+    .leftheader{
+        position: fixed;
+        width: 98%;
+        bottom: 0;
+        z-index: 1000;
+        border: 1px solid rgba(0, 0, 0, 0.16);
+        padding: 10px 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 5px 2px 31px rgba(0,0,0,.17);
+        transform: translate(9%, -7px);
+    }
+
+    .leftheader a{
+      flex-direction: column;
+    }
+
+    .searchbox {
+    width: 70%!important;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .searchbox {
+        width: 100%!important;
+        }
+    .logo{
+        width: 100%;
+      
+        justify-content: center;
+    }
+        .bodyheader{
+ 
+  
+          flex-direction: column;
+        }
+    .leftheader{transform: unset;}
+}
+
+@media screen and (max-width:440px) {
+    .leftheader a{
+       font-size: 1em;
+      }
+}
+
+@media screen and (max-width:375px) {
+    .leftheader a{
+       font-size: 0.8em;
+      }
+}
+@media screen and (max-width:322px) {
+    .leftheader a{
+       font-size: 0.6em;
+      }
+}

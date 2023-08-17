@@ -1,0 +1,154 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+
+}
+.cfooter{
+    width: 100%;
+    background-color: #FAFAFC;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.rightfooter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.rightfooter p{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.rightfooter div{
+    margin-left: 30px;
+}
+
+.rightfooter ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    
+}
+
+.rightfooter ul li{
+   list-style-type: none;
+   font-size: 1.2em;
+   padding-bottom: 10px;
+   color: rgba(0, 0, 0, 0.644);
+}
+
+
+.leftfooter{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.namad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-left: 10px;
+}
+.namad img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.applicationd1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+background-color: white;
+padding: 5px;
+margin-bottom: 5px;
+}
+
+.applicationfooter{
+    display: flex;
+    flex-direction: column;
+    
+}
+.applicationd1 svg{
+    font-size: 2em;
+    color: #6698FA;
+
+}
+
+.underfooter{
+    background-color: #F2F2F5;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.bodyunderfooter{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logosocial{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.logosocial svg{
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:1300px) {
+    .footer{
+        flex-direction: column;
+    
+    }
+    
+.leftfooter{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+}
+@media screen and (max-width:600px) {
+    .rightfooter{
+     flex-wrap: wrap;
+     justify-content: space-between;
+    
+    }
+    .rightfooter div{
+        margin-bottom: 20px;
+    }
+    .leftfooter{
+        display: flex;
+      flex-direction: column-reverse;
+     gap: 10px;
+      
+    
+    
+    }
+}
+@media screen and (max-width:660px) {
+    .adslist{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+      
+       
+    }
+    .bodyunderfooter{
+     flex-direction: column;
+     gap: 10px;
+    }
+}
